@@ -1,7 +1,8 @@
 
 
 import streamlit as st
-from pages.upload import show
+from app_pages.upload import show
+
 
 st.set_page_config(
     page_title="DataPilot AI",

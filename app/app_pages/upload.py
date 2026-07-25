@@ -12,8 +12,14 @@ def show():
 
     if uploaded_file is not None:
         st.success("✅ Dataset uploaded successfully!")
-        st.write("Hello")
+    
 
         df = pd.read_csv(uploaded_file)
 
         st.dataframe(df)
+
+        st.subheader("📊 Dataset Summary")
+
+        st.write("Rows:", df.shape[0])
+
+        st.write("Columns:", df.shape[1])
