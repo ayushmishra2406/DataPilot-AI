@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+print("LOADED: app/app_pages/upload.py")
 
 def show():
     st.title("📁 Upload Dataset")
@@ -21,5 +22,13 @@ def show():
         st.subheader("📊 Dataset Summary")
 
         st.write("Rows:", df.shape[0])
-
         st.write("Columns:", df.shape[1])
+
+        st.subheader("📋 Column Names")
+
+        for column in df.columns:
+            st.write("•", column)
+
+        st.subheader("📌 Data Types")
+
+        st.write(df.dtypes)
