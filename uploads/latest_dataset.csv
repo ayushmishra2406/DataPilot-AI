@@ -1,0 +1,12 @@
+EmployeeID,Name,Department,Age,Salary,Experience
+101,Ayush,Data,22,55000,1
+102,Rahul,Engineering,24,60000,2
+103,Priya,HR,25,52000,3
+103,Priya,HR,25,52000,3
+104,Neha,Finance,,58000,4
+105,Arjun,Marketing,23,,2
+106,Karan,Data,27,65000,
+107,Sneha,Engineering,26,9999999,5
+108,Rohit,Data,150,62000,6
+109,Ananya,HR,24,54000,2
+110,Vikram,Finance,29,70000,7

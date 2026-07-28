@@ -1,142 +1,110 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import os
 
 print("LOADED: app/app_pages/upload.py")
 
 
 def show():
-    st.title("Welcome")
+    st.title("📂 Upload Dataset")
 
     uploaded_file = st.file_uploader(
         "Choose a CSV file",
         type=["csv"]
     )
 
+    # If a new file is uploaded
     if uploaded_file is not None:
-
-        st.success("✅ Dataset uploaded successfully!")
 
         df = pd.read_csv(uploaded_file)
 
+        os.makedirs("uploads", exist_ok=True)
+
+        with open("uploads/latest_dataset.csv", "wb") as f:
+            f.write(uploaded_file.getbuffer())
+
         st.session_state["df"] = df
 
-        st.write(st.session_state["df"].head())
+        st.success("✅ Dataset uploaded successfully!")
 
-        
-        tab1, tab2, tab3 = st.tabs([
-            "📄 Dataset",
-            "📊 Statistics",
-            "📈 Visualizations"
-        ])
+    # If no file is uploaded, load the last saved dataset
+    elif "df" not in st.session_state and os.path.exists("uploads/latest_dataset.csv"):
 
-       
-        with tab1:
+        df = pd.read_csv("uploads/latest_dataset.csv")
+        st.session_state["df"] = df
 
-            st.subheader("📄 Dataset Preview")
-            st.dataframe(df)
+    # If there is still no dataset
+    if "df" not in st.session_state:
+        st.info("👆 Please upload a CSV file to get started.")
+        return
 
-            st.subheader("📋 Column Names")
+    # Use the dataframe stored in session state
+    df = st.session_state["df"]
 
-            for column in df.columns:
-                st.write(f"• {column}")
+    # Create tabs
+    tab1, tab2 = st.tabs([
+        "📄 Dataset",
+        "📊 Statistics"
+    ])
 
-            st.subheader("📌 Data Types")
-            st.write(df.dtypes)
+    # ==========================
+    # Dataset Tab
+    # ==========================
+    with tab1:
 
-        with tab2:
+        st.subheader("📄 Dataset Preview")
+        st.dataframe(df, use_container_width=True)
 
-            st.subheader("📊 Dataset Summary")
+        st.subheader("📋 Column Names")
 
-            col1, col2 = st.columns(2)
+        for column in df.columns:
+            st.write(f"• {column}")
 
-            with col1:
-                st.metric("Rows", df.shape[0])
+        st.subheader("📌 Data Types")
+        st.write(df.dtypes)
 
-            with col2:
-                st.metric("Columns", df.shape[1])
+    # ==========================
+    # Statistics Tab
+    # ==========================
+    with tab2:
 
-            st.subheader("❓ Missing Values")
+        st.subheader("📊 Dataset Summary")
 
-            missing_values = df.isnull().sum()
-            st.dataframe(missing_values)
+        col1, col2 = st.columns(2)
 
-            st.subheader("📈 Statistical Summary")
+        with col1:
+            st.metric("Rows", df.shape[0])
+
+        with col2:
+            st.metric("Columns", df.shape[1])
+
+        st.subheader("❓ Missing Values")
+
+        missing_values = df.isnull().sum()
+        st.dataframe(missing_values)
+
+        st.subheader("📈 Statistical Summary")
+
+        try:
+            st.dataframe(df.describe(include="all"))
+        except Exception:
             st.dataframe(df.describe())
 
-            st.subheader("🔁 Duplicate Rows")
+        st.subheader("🔁 Duplicate Rows")
 
-            duplicates = df.duplicated().sum()
-            st.write(f"Number of duplicate rows: {duplicates}")
+        duplicates = df.duplicated().sum()
+        st.write(f"Number of duplicate rows: {duplicates}")
 
-            st.subheader("💾 Memory Usage")
+        st.subheader("💾 Memory Usage")
 
-            memory = df.memory_usage(deep=True).sum()
-            st.write(f"Memory Used: {memory / 1024:.2f} KB")
+        memory = df.memory_usage(deep=True).sum()
+        st.write(f"Memory Used: {memory / 1024:.2f} KB")
 
-            st.subheader("ℹ️ Dataset Information")
+        st.subheader("ℹ️ Dataset Information")
 
-            info_df = pd.DataFrame({
-                "Data Type": df.dtypes,
-                "Non-Null Count": df.count()
-            })
+        info_df = pd.DataFrame({
+            "Data Type": df.dtypes.astype(str),
+            "Non-Null Count": df.count()
+        })
 
-            st.dataframe(info_df)
-
-       
-        with tab3:
-
-            st.subheader("📊 Missing Values Chart")
-
-            missing_values = df.isnull().sum()
-            missing_values = missing_values[missing_values > 0]
-
-            if not missing_values.empty:
-                st.bar_chart(missing_values)
-            else:
-                st.success("🎉 No missing values found!")
-
-            st.subheader("📊 Distribution Plot")
-
-            numeric_columns = df.select_dtypes(include=["number"]).columns
-
-            if len(numeric_columns) > 0:
-
-                selected_column = st.selectbox(
-                    "Select a numeric column",
-                    numeric_columns
-                )
-
-                fig = px.histogram(
-                    df,
-                    x=selected_column,
-                    title=f"Distribution of {selected_column}"
-                )
-
-                st.plotly_chart(fig, use_container_width=True)
-
-                st.subheader("📦 Box Plot")
-
-                fig_box = px.box(
-                    df,
-                    y=selected_column,
-                    title=f"Box Plot of {selected_column}"
-                )
-
-                st.plotly_chart(fig_box, use_container_width=True)
-
-            else:
-                st.warning("No numeric columns found in the dataset.")
-
-            st.subheader("🔥 Correlation Heatmap")
-
-            correlation = df.select_dtypes(include=["number"]).corr()
-
-            fig_heatmap = px.imshow(
-                correlation,
-                text_auto=True,
-                color_continuous_scale="RdBu_r",
-                title="Correlation Heatmap"
-            )
-
-            st.plotly_chart(fig_heatmap, use_container_width=True)
+        st.dataframe(info_df, use_container_width=True)
