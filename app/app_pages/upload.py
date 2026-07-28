@@ -19,9 +19,11 @@ def show():
 
         df = pd.read_csv(uploaded_file)
 
-        # -----------------------------
-        # Create Tabs
-        # -----------------------------
+        st.session_state["df"] = df
+
+        st.write(st.session_state["df"].head())
+
+        
         tab1, tab2, tab3 = st.tabs([
             "📄 Dataset",
             "📊 Statistics",

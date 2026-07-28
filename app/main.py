@@ -1,7 +1,8 @@
 
 
 import streamlit as st
-from app_pages.upload import show
+from app_pages.upload import show as upload_page
+from app_pages.cleaning import show as cleaning_page
 
 
 st.set_page_config(
@@ -17,6 +18,7 @@ page = st.sidebar.radio(
     [
         "🏠 Home",
         "📁 Upload Dataset",
+        "🧹 Data Cleaning",
         "📊 Dashboard",
         "📈 Analytics",
         "🤖 Machine Learning",
@@ -37,13 +39,17 @@ if page == "🏠 Home":
 
     - 📁 Upload datasets
     - 📊 Analyze business data
+    - 🧹 Data Cleaning 
     - 📈 Build interactive dashboards
     - 🤖 Train machine learning models
     - 📄 Generate reports
     """)
 
 elif page == "📁 Upload Dataset":
-    show()
+    upload_page()
+
+elif page == "🧹 Data Cleaning":
+    cleaning_page()
 
 
 
