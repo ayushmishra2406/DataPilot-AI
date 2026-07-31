@@ -5,6 +5,7 @@ from app_pages.upload import show as upload_page
 from app_pages.cleaning import show as cleaning_page
 from app_pages.dashboard import show as dashboard_page
 from app_pages.analytics import show as analytics_page
+from app_pages.ml import show as ml_page
 
 
 
@@ -61,4 +62,6 @@ elif page == "📊 Dashboard":
 elif page == "📈 Analytics":
     analytics_page()
 
+elif page == "🤖 Machine Learning":
+    ml_page()
 
