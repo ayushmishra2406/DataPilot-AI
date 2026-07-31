@@ -1,124 +1,203 @@
-Employee_ID,Age,Gender,Department,City,Experience_Years,Salary,Bonus,Performance_Score,Job_Satisfaction,Attrition,Hire_Date
-1001,28,Other,HR,Jaipur,7,50512,2846.68,2.73,1.4,No,2019-12-23
-1002,35,Other,HR,Hyderabad,6,57726,9689.49,2.08,4.2,No,2023-09-15
-1003,21,Male,HR,,0,30848,2139.1,3.02,4.4,Yes,2020-02-23
-1004,59,Male,Marketing,Mumbai,34,137423,29667.01,4.19,3.5,No,2019-11-19
-1005,44,Female,HR,Jaipur,20,89279,11251.41,2.14,2.8,No,2021-08-11
-1006,44,Female,Operations,Hyderabad,21,102630,8644.29,3.07,3.9,No,2019-10-20
-1007,31,Other,Operations,Bengaluru,3,39933,8728.17,2.81,4.1,No,2021-06-18
-1008,35,Male,Sales,Bengaluru,14,76336,11438.66,3.2,4.5,No,2022-07-12
-1009,50,Other,Operations,Bengaluru,27,120179,16306.7,2.42,3.3,No,2021-12-12
-1010,44,Male,Sales,Jaipur,20,91532,19076.72,,2.7,No,2020-09-18
-1011,25,Other,Finance,Delhi,0,29504,,3.79,4.5,No,2019-02-17
-1012,38,Female,HR,Jaipur,12,62655,12680.9,2.88,3.0,No,2021-12-14
-1013,27,Female,HR,Pune,2,40635,6899.37,3.83,3.0,No,2024-12-12
-1014,28,Other,HR,,2,34076,7265.16,2.72,4.9,No,2019-12-17
-1015,55,Male,Marketing,Delhi,32,133207,17933.34,3.98,1.8,No,2024-12-01
-1016,55,Other,Operations,Delhi,31,135714,19040.3,3.2,2.0,No,2023-11-30
-1017,25,Other,HR,,0,17689,3117.17,3.76,1.9,Yes,2019-01-30
-1018,23,Other,IT,Mumbai,0,19321,3761.23,3.54,4.5,No,2021-05-27
-1019,57,Male,Finance,Jaipur,29,126462,15284.14,4.35,2.6,No,2020-02-02
-1020,24,Male,IT,,2,25986,3630.83,3.21,2.7,No,2021-02-23
-1021,38,Female,Sales,Bengaluru,10,60185,15037.61,4.62,4.3,Yes,2020-02-06
-1022,26,Male,Finance,Mumbai,2,29449,1485.14,3.22,2.6,Yes,2019-08-29
-1023,50,Other,Operations,Hyderabad,25,118361,12941.78,4.09,4.9,Yes,2024-06-16
-1024,58,Male,Sales,Bengaluru,29,120497,26574.89,4.24,1.6,No,2024-05-06
-1025,53,Other,Sales,Pune,31,131589,30009.85,2.21,2.0,Yes,2023-07-12
-1026,59,Other,Marketing,,38,152686,13871.8,3.26,3.9,No,2022-07-19
-1027,36,Female,Operations,Mumbai,11,68469,16237.21,2.39,1.0,No,2022-07-19
-1028,60,Female,Marketing,Pune,38,152400,34420.16,3.61,2.5,No,2022-11-30
-1029,31,Other,Marketing,Bengaluru,3,45300,7289.7,4.11,4.7,No,2019-02-02
-1030,27,Other,Sales,Bengaluru,4,39666,6781.54,2.35,3.9,No,2020-09-28
-1031,34,Male,Sales,Hyderabad,9,65061,3826.72,3.47,2.3,No,2023-10-01
-1032,29,Other,Marketing,Mumbai,4,36294,8674.64,4.22,3.8,Yes,2019-02-09
-1033,30,Other,Marketing,Pune,1,21680,2420.61,4.5,4.6,Yes,2023-10-27
-1034,23,Male,Operations,Delhi,0,23883,4774.1,4.05,4.7,No,2023-07-23
-1035,36,Male,Sales,Hyderabad,13,68301,9039.13,4.64,3.7,No,2022-09-22
-1036,36,Female,Sales,Jaipur,11,60716,12951.77,4.36,2.8,No,2024-04-11
-1037,40,Female,HR,Delhi,16,80304,19544.21,2.07,2.1,No,2022-02-15
-1038,53,Male,Sales,Delhi,26,125570,30979.39,2.99,1.2,No,2021-01-01
-1039,59,Female,IT,Bengaluru,32,140327,32261.31,4.19,1.8,Yes,2024-09-25
-1040,23,Other,Marketing,Hyderabad,0,17055,,3.56,3.7,No,2021-03-18
-1041,42,Other,IT,Delhi,16,77083,14602.73,4.16,3.2,No,2023-07-31
-1042,33,Other,HR,Bengaluru,6,50423,10928.93,4.03,2.2,No,2022-05-17
-1043,34,Female,IT,Mumbai,7,60504,9210.81,3.82,4.2,No,2023-12-17
-1044,31,Other,Operations,Delhi,9,57799,11572.96,3.55,3.7,No,2020-01-18
-1045,35,Female,HR,Bengaluru,11,60328,13708.17,2.07,3.3,No,2019-10-26
-1046,45,Other,Operations,Jaipur,17,89595,8401.16,2.73,4.2,No,2020-03-12
-1047,54,Female,Sales,Pune,26,109645,27145.74,3.67,3.4,No,2024-03-18
-1048,49,Female,Marketing,Pune,20,100983,20232.49,4.49,4.4,No,2024-04-28
-1049,38,Female,IT,Jaipur,9,64379,7543.26,3.88,4.6,No,2022-03-16
-1050,26,Male,Operations,Hyderabad,3,32442,4266.77,2.69,3.2,Yes,2021-05-26
-1051,47,Other,Finance,Hyderabad,26,114777,23313.38,4.5,2.5,No,2019-03-22
-1052,21,Other,Finance,Hyderabad,0,26784,2801.26,4.26,2.9,No,2021-06-22
-1053,45,Male,Finance,Bengaluru,19,96748,12461.53,,3.3,Yes,2024-12-27
-1054,22,Male,Finance,Jaipur,0,31044,2866.36,2.41,2.3,No,2021-12-01
-1055,45,Female,Sales,Jaipur,20,100813,12096.76,2.76,3.6,No,2019-08-02
-1056,23,Other,Sales,Pune,2,32102,5903.29,,3.3,Yes,2021-09-04
-1057,34,Other,HR,Bengaluru,6,46396,3839.42,4.3,2.2,No,2020-04-14
-1058,58,Female,Finance,Hyderabad,37,156722,29482.99,3.73,3.5,Yes,2021-03-23
-1059,27,Male,Marketing,Delhi,2,43674,5420.56,4.42,3.0,No,2024-12-22
-1060,42,Female,Sales,Delhi,21,104264,,,3.9,No,2024-02-27
-1061,38,Other,Operations,Delhi,9,64343,13907.5,3.39,1.3,No,2022-08-13
-1062,49,Female,Operations,Delhi,25,119727,13768.94,3.71,3.0,No,2019-04-28
-1063,43,Other,Marketing,Delhi,18,91152,8040.64,2.84,2.0,No,2019-02-11
-1064,47,Female,Operations,Hyderabad,19,101692,5435.3,4.27,2.2,No,2024-07-03
-1065,46,Female,IT,Bengaluru,22,104033,25938.16,3.99,3.2,No,2024-12-14
-1066,43,Male,HR,Hyderabad,15,78377,15563.81,2.92,4.8,No,2021-02-27
-1067,32,Other,IT,Bengaluru,8,52090,12819.46,4.22,4.3,No,2024-11-18
-1068,39,Other,Sales,Bengaluru,15,81325,19913.16,2.54,3.2,No,2020-06-02
-1069,29,Female,Marketing,Mumbai,1,23861,2072.87,4.62,1.2,No,2024-05-14
-1070,51,Other,Sales,Hyderabad,29,120641,25603.45,3.2,4.8,Yes,2019-08-08
-1071,26,Other,Finance,Bengaluru,2,27881,3515.11,3.67,4.6,No,2021-07-13
-1072,40,Other,Sales,Hyderabad,13,72506,,3.71,1.8,No,2020-02-11
-1073,26,Male,Sales,Jaipur,3,35359,5967.26,2.52,2.2,No,2023-08-01
-1074,35,Male,Finance,Hyderabad,10,61264,12716.3,4.11,3.5,No,2021-08-14
-1075,33,Male,Operations,Delhi,6,41760,3473.79,3.63,2.2,Yes,2020-08-05
-1076,57,Female,Operations,Hyderabad,32,143390,21522.04,2.37,3.0,No,2023-07-07
-1077,26,Female,Marketing,Jaipur,5,48656,8994.53,4.2,4.4,No,2020-01-10
-1078,58,Female,HR,Bengaluru,37,155331,13404.73,3.73,3.3,No,2023-12-17
-1079,52,Female,IT,Hyderabad,30,137401,15933.12,3.04,3.8,No,2020-03-04
-1080,39,Female,Sales,Delhi,12,77025,15752.35,2.11,4.5,Yes,2022-08-17
-1081,21,Other,HR,Delhi,0,32138,6491.82,3.24,1.8,No,2024-08-03
-1082,56,Female,Operations,Jaipur,33,141938,24381.31,3.31,2.0,No,2019-04-29
-1083,31,Male,Finance,Pune,6,56049,4119.22,2.04,4.3,No,2020-04-09
-1084,52,Female,Finance,Mumbai,27,128174,10116.57,4.12,1.8,No,2021-09-25
-1085,59,Female,IT,Delhi,30,126473,6388.54,4.59,3.9,No,2024-09-10
-1086,58,Female,Finance,Delhi,30,126869,14508.16,3.34,1.8,No,2023-03-26
-1087,36,Male,Finance,Delhi,9,56153,11920.26,4.57,2.5,No,2024-04-21
-1088,30,Female,Marketing,Jaipur,2,25213,5851.64,2.38,1.1,Yes,2023-12-09
-1089,30,Female,IT,Bengaluru,3,32558,7174.25,2.22,4.4,No,2023-06-17
-1090,55,Other,Finance,Jaipur,28,125376,23430.26,3.88,2.1,No,2019-10-08
-1091,35,Other,Operations,Jaipur,13,76720,8431.01,4.94,1.1,Yes,2023-12-23
-1092,41,Male,Finance,Pune,20,96613,18004.81,3.08,1.7,No,2024-12-15
-1093,32,Other,Marketing,Pune,10,71971,5658.62,4.61,2.8,No,2024-07-31
-1094,37,Female,Finance,Hyderabad,9,56866,,4.0,5.0,Yes,2020-10-09
-1095,40,Male,IT,Mumbai,13,70695,8926.86,3.37,2.4,Yes,2024-06-02
-1096,39,Female,Operations,Delhi,14,66718,12486.93,4.93,4.0,No,2019-02-03
-1097,24,Other,HR,Delhi,0,26378,4594.47,4.33,3.7,No,2021-06-16
-1098,29,Male,Finance,Bengaluru,7,42791,2910.93,2.93,2.2,No,2023-02-03
-1099,47,Female,Marketing,Bengaluru,24,107579,23247.23,2.4,2.0,No,2024-08-17
-1100,51,Male,Finance,Pune,26,119099,23205.65,4.41,4.9,No,2021-07-13
-1101,56,Female,Sales,Bengaluru,30,124959,23063.14,4.37,3.7,No,2020-05-21
-1102,58,Female,HR,Jaipur,31,137672,12978.81,2.33,1.3,No,2022-09-05
-1103,50,Male,Sales,Delhi,25,117879,11429.55,2.35,3.2,Yes,2024-07-10
-1104,45,Other,Operations,Bengaluru,17,88657,17316.47,4.01,4.5,No,2023-09-13
-1105,27,Male,IT,Hyderabad,0,30373,4220.0,4.82,1.9,No,2023-02-26
-1106,44,Female,Operations,Jaipur,22,106036,25834.76,3.63,4.8,No,2023-06-19
-1107,50,Male,Marketing,Jaipur,28,121950,9168.78,3.93,3.3,No,2022-09-28
-1108,25,Female,HR,Pune,0,23788,5871.01,3.76,5.0,No,2019-01-12
-1109,55,Male,Sales,Jaipur,30,127717,12463.43,2.33,2.3,No,2023-01-07
-1110,32,Other,Finance,Jaipur,7,43217,8885.56,,3.1,No,2019-09-18
-1111,27,Male,Marketing,Hyderabad,0,33509,5986.99,2.66,1.1,No,2024-11-05
-1112,51,Other,Finance,Mumbai,24,114968,13154.91,4.06,1.6,No,2019-10-29
-1113,29,Female,IT,Bengaluru,4,50181,7582.86,3.65,2.7,No,2024-12-13
-1114,28,Female,HR,Delhi,0,24045,4710.96,3.29,2.3,No,2024-02-01
-1115,41,Female,Operations,Jaipur,16,85265,5853.1,4.86,1.4,No,2020-01-09
-1116,44,Other,Marketing,Delhi,21,108731,24434.19,2.18,4.8,No,2020-05-15
-1117,48,Male,IT,Bengaluru,27,120925,21929.42,3.8,1.9,No,2024-09-09
-1118,27,Other,IT,Pune,1,38727,9484.6,3.1,4.3,No,2023-10-24
-1119,60,Other,Operations,Delhi,31,126360,24076.6,3.83,2.2,No,2019-04-29
-1120,42,Other,HR,Hyderabad,16,73200,14507.79,2.54,4.9,Yes,2023-06-30
-1011,25,Other,Finance,Delhi,0,29504,,3.79,4.5,No,2019-02-17
-1026,59,Other,Marketing,,38,152686,13871.8,3.26,3.9,No,2022-07-19
-1041,42,Other,IT,Delhi,16,77083,14602.73,4.16,3.2,No,2023-07-31
+Loan_ID,Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Property_Area,Loan_Status
+LP100001,Male,No,0,Not Graduate,No,5029.0,0,438.0,360,1.0,Semiurban,N
+LP100002,Male,Yes,0,Not Graduate,Yes,21082.0,0,56.0,240,1.0,Urban,Y
+LP100003,Male,No,3+,Not Graduate,No,16877.0,0,362.0,240,1.0,Urban,Y
+LP100004,Male,No,3+,Not Graduate,No,13772.0,0,235.0,120,1.0,Rural,Y
+LP100005,Female,No,2,Graduate,Yes,20708.0,0,63.0,240,0.0,Semiurban,N
+LP100006,Female,Yes,3+,Graduate,Yes,19076.0,8282,,120,0.0,Urban,N
+LP100007,Female,No,0,Graduate,Yes,18222.0,0,134.0,300,,Rural,N
+LP100008,Female,No,3+,Graduate,No,15068.0,0,217.0,300,0.0,Rural,N
+LP100009,Male,No,2,Graduate,No,14255.0,0,597.0,240,0.0,Rural,N
+LP100010,Female,Yes,2,Not Graduate,No,11455.0,0,212.0,360,1.0,Rural,Y
+LP100011,Female,Yes,2,Graduate,No,18090.0,0,379.0,240,1.0,Urban,Y
+LP100012,Male,Yes,2,Graduate,Yes,21164.0,0,399.0,360,0.0,Rural,N
+LP100013,Male,No,3+,Not Graduate,No,8844.0,0,674.0,120,1.0,Semiurban,Y
+LP100014,Female,No,2,Not Graduate,Yes,16214.0,0,235.0,300,0.0,Semiurban,N
+LP100015,Female,No,0,Not Graduate,Yes,10197.0,0,106.0,300,0.0,Rural,N
+LP100016,Female,Yes,3+,Not Graduate,,19940.0,0,304.0,300,1.0,Semiurban,Y
+LP100017,Male,No,0,Not Graduate,Yes,12177.0,0,662.0,120,1.0,Rural,Y
+LP100018,Male,No,3+,Graduate,Yes,9802.0,0,476.0,240,1.0,Urban,Y
+LP100019,Male,Yes,2,Not Graduate,No,8844.0,0,155.0,300,1.0,Urban,Y
+LP100020,Female,Yes,0,Not Graduate,No,18450.0,0,555.0,180,0.0,Urban,N
+LP100021,Female,Yes,0,Not Graduate,No,19421.0,0,302.0,300,1.0,Urban,Y
+LP100022,Male,No,1,Not Graduate,Yes,15075.0,4638,450.0,360,0.0,Semiurban,N
+LP100023,Female,Yes,1,Graduate,No,13063.0,0,505.0,360,1.0,Semiurban,Y
+LP100024,Male,No,0,Graduate,,7391.0,0,536.0,180,0.0,Urban,N
+LP100025,Female,No,1,Not Graduate,Yes,,0,522.0,120,0.0,Rural,N
+LP100026,Male,Yes,3+,Not Graduate,Yes,4429.0,0,348.0,240,1.0,Semiurban,Y
+LP100027,Male,No,1,Graduate,Yes,21314.0,0,480.0,360,1.0,Semiurban,Y
+LP100028,Female,No,0,Not Graduate,Yes,22687.0,0,437.0,180,1.0,Semiurban,Y
+LP100029,Female,Yes,1,Graduate,No,,13747,340.0,360,0.0,Semiurban,Y
+LP100030,Male,Yes,2,Graduate,Yes,5968.0,0,326.0,120,0.0,Semiurban,N
+LP100031,Female,Yes,0,Not Graduate,No,22405.0,0,500.0,180,0.0,Urban,N
+LP100032,Female,No,1,Graduate,No,1511.0,0,295.0,120,1.0,Urban,Y
+LP100033,Female,No,0,Graduate,Yes,20143.0,0,632.0,120,0.0,Semiurban,N
+LP100034,Male,No,2,Graduate,No,8445.0,0,482.0,120,0.0,Urban,N
+LP100035,Male,No,3+,Not Graduate,Yes,,2469,93.0,360,1.0,Rural,Y
+LP100036,Male,Yes,3+,Not Graduate,No,,0,464.0,300,0.0,Urban,N
+LP100037,Female,No,3+,Not Graduate,No,14966.0,0,596.0,360,0.0,Urban,N
+LP100038,Male,No,1,Not Graduate,Yes,13678.0,5853,432.0,240,1.0,Urban,Y
+LP100039,Female,No,1,Graduate,Yes,9086.0,10401,189.0,360,0.0,Semiurban,Y
+LP100040,Female,No,2,Not Graduate,No,12570.0,12077,230.0,180,0.0,Rural,N
+LP100041,Female,Yes,1,Graduate,Yes,23961.0,12237,233.0,360,0.0,Rural,Y
+LP100042,Male,No,1,Not Graduate,No,23674.0,9272,280.0,120,1.0,Rural,Y
+LP100043,Female,Yes,2,Not Graduate,No,1974.0,0,411.0,240,1.0,Urban,N
+LP100044,Female,Yes,0,Graduate,Yes,22909.0,0,530.0,300,0.0,Semiurban,N
+LP100045,Female,Yes,2,Graduate,Yes,5369.0,0,579.0,120,1.0,Rural,Y
+LP100046,Female,Yes,2,Not Graduate,No,5332.0,0,417.0,360,1.0,Urban,N
+LP100047,Male,Yes,3+,Not Graduate,No,16159.0,0,474.0,120,0.0,Semiurban,N
+LP100048,Female,No,0,Not Graduate,Yes,5467.0,1441,451.0,360,1.0,Urban,N
+LP100049,Female,No,2,Graduate,Yes,21673.0,0,262.0,240,0.0,Rural,N
+LP100050,Male,No,3+,Not Graduate,No,22027.0,8322,326.0,300,1.0,Urban,Y
+LP100051,Female,No,1,Graduate,Yes,6776.0,12405,571.0,300,1.0,Rural,Y
+LP100052,Female,Yes,3+,Graduate,No,16762.0,0,222.0,240,0.0,Urban,N
+LP100053,Female,Yes,1,Not Graduate,Yes,20770.0,0,366.0,180,1.0,Urban,Y
+LP100054,Female,Yes,0,Graduate,Yes,12884.0,0,228.0,300,1.0,Urban,Y
+LP100055,Male,No,1,Graduate,No,7097.0,0,645.0,240,1.0,Urban,Y
+LP100056,Male,Yes,1,Not Graduate,No,18073.0,0,212.0,360,0.0,Urban,N
+LP100057,Male,No,3+,Graduate,Yes,21829.0,0,324.0,240,1.0,Semiurban,Y
+LP100058,Male,No,2,Not Graduate,Yes,7578.0,0,566.0,120,1.0,Rural,N
+LP100059,Female,Yes,3+,Not Graduate,No,5312.0,12412,541.0,240,1.0,Urban,Y
+LP100060,Male,Yes,0,Not Graduate,No,16252.0,8330,204.0,180,0.0,Urban,N
+LP100061,Male,No,2,Not Graduate,Yes,9966.0,0,454.0,360,1.0,Rural,Y
+LP100062,Male,Yes,2,Not Graduate,No,,1061,394.0,300,0.0,Urban,N
+LP100063,Male,Yes,1,Graduate,No,14650.0,9963,107.0,300,1.0,Semiurban,Y
+LP100064,Male,No,2,Graduate,No,,0,518.0,360,1.0,Rural,Y
+LP100065,Male,No,0,Not Graduate,Yes,7824.0,0,117.0,120,1.0,Rural,Y
+LP100066,Female,Yes,1,Graduate,Yes,23247.0,0,691.0,240,1.0,Semiurban,Y
+LP100067,Male,Yes,2,Graduate,No,4985.0,11107,107.0,120,1.0,Rural,Y
+LP100068,Female,Yes,1,Graduate,No,22533.0,0,503.0,360,1.0,Urban,Y
+LP100069,Female,No,2,Not Graduate,Yes,,0,186.0,180,1.0,Rural,Y
+LP100070,Male,No,0,Graduate,Yes,7108.0,0,318.0,180,1.0,Urban,Y
+LP100071,Male,Yes,1,Graduate,Yes,3260.0,0,395.0,180,1.0,Semiurban,Y
+LP100072,Female,Yes,3+,Graduate,,8887.0,0,239.0,300,,Semiurban,Y
+LP100073,Male,No,0,Graduate,Yes,5836.0,0,,180,0.0,Urban,N
+LP100074,Male,Yes,3+,Not Graduate,Yes,5267.0,0,522.0,120,1.0,Rural,N
+LP100075,Male,Yes,1,Graduate,Yes,4289.0,0,147.0,180,0.0,Urban,N
+LP100076,Male,No,0,Graduate,No,4084.0,13650,301.0,240,,Semiurban,Y
+LP100077,Male,Yes,0,Not Graduate,No,7953.0,0,612.0,180,1.0,Rural,N
+LP100078,Male,No,2,Graduate,No,2097.0,0,563.0,120,1.0,Semiurban,Y
+LP100079,Female,Yes,2,Not Graduate,No,22232.0,0,223.0,180,0.0,Rural,N
+LP100080,Female,No,1,Not Graduate,No,12062.0,0,613.0,360,0.0,Rural,N
+LP100081,Female,Yes,3+,Graduate,No,6090.0,0,137.0,120,1.0,Semiurban,Y
+LP100082,Male,No,2,Not Graduate,Yes,10082.0,0,351.0,300,0.0,Semiurban,N
+LP100083,Female,Yes,2,Graduate,,,0,291.0,300,1.0,Urban,Y
+LP100084,Female,No,1,Not Graduate,No,11311.0,0,291.0,300,0.0,Urban,N
+LP100085,Female,Yes,1,Not Graduate,Yes,2225.0,0,175.0,180,,Rural,N
+LP100086,Male,Yes,3+,Not Graduate,No,7459.0,12367,548.0,120,0.0,Rural,N
+LP100087,Female,Yes,1,Graduate,Yes,11076.0,0,561.0,120,1.0,Urban,Y
+LP100088,Female,Yes,0,Graduate,No,24499.0,0,259.0,240,,Urban,N
+LP100089,Female,No,1,Graduate,No,,10303,404.0,120,0.0,Urban,N
+LP100090,Male,Yes,2,Not Graduate,No,23091.0,0,648.0,120,0.0,Semiurban,N
+LP100091,Female,No,2,Not Graduate,No,17701.0,0,235.0,120,1.0,Rural,Y
+LP100092,Male,No,1,Graduate,Yes,11659.0,0,653.0,240,0.0,Semiurban,N
+LP100093,Female,No,2,Not Graduate,Yes,22916.0,0,,120,1.0,Urban,Y
+LP100094,Female,Yes,1,Not Graduate,No,12505.0,9954,328.0,360,0.0,Rural,N
+LP100095,Female,Yes,0,Graduate,No,15113.0,11122,103.0,240,1.0,Rural,Y
+LP100096,Female,No,2,Not Graduate,Yes,5296.0,0,384.0,240,0.0,Rural,N
+LP100097,Female,Yes,2,Not Graduate,No,15406.0,0,555.0,300,0.0,Rural,N
+LP100098,Female,No,0,Not Graduate,No,5360.0,0,555.0,240,0.0,Rural,N
+LP100099,Male,No,0,Not Graduate,Yes,23326.0,11711,105.0,300,0.0,Rural,N
+LP100100,Male,Yes,0,Graduate,Yes,9549.0,0,600.0,180,1.0,Semiurban,Y
+LP100101,Male,No,0,Graduate,Yes,19556.0,0,409.0,180,1.0,Rural,Y
+LP100102,Male,No,1,Graduate,Yes,11199.0,0,460.0,300,1.0,Semiurban,Y
+LP100103,Male,Yes,3+,Not Graduate,Yes,13966.0,0,186.0,240,0.0,Rural,N
+LP100104,Female,No,2,Not Graduate,No,20033.0,0,81.0,180,1.0,Semiurban,Y
+LP100105,Female,No,1,Not Graduate,No,23114.0,0,332.0,240,0.0,Urban,N
+LP100106,Female,Yes,3+,Graduate,No,12394.0,0,513.0,120,1.0,Urban,Y
+LP100107,Male,Yes,1,Graduate,No,12338.0,0,674.0,360,1.0,Semiurban,Y
+LP100108,Male,No,2,Graduate,Yes,5517.0,4657,104.0,180,0.0,Semiurban,N
+LP100109,Female,Yes,2,Graduate,Yes,23919.0,0,227.0,240,1.0,Rural,Y
+LP100110,Male,Yes,3+,Not Graduate,Yes,8083.0,0,481.0,180,1.0,Semiurban,Y
+LP100111,Male,No,3+,Not Graduate,No,9837.0,0,103.0,240,,Urban,N
+LP100112,Male,Yes,1,Not Graduate,Yes,4611.0,0,598.0,360,0.0,Urban,N
+LP100113,Female,Yes,1,Not Graduate,Yes,2675.0,2215,428.0,180,0.0,Rural,N
+LP100114,Male,Yes,0,Not Graduate,No,10248.0,1571,,360,1.0,Rural,Y
+LP100115,Female,Yes,0,Not Graduate,Yes,7209.0,0,537.0,300,0.0,Semiurban,N
+LP100116,Female,No,2,Not Graduate,No,18786.0,0,584.0,240,1.0,Urban,Y
+LP100117,Male,No,0,Not Graduate,No,4178.0,0,637.0,120,1.0,Rural,N
+LP100118,Male,No,2,Graduate,No,6244.0,0,90.0,360,1.0,Rural,Y
+LP100119,Male,Yes,2,Not Graduate,Yes,24257.0,0,52.0,300,1.0,Semiurban,Y
+LP100120,Male,No,0,Not Graduate,No,14924.0,0,320.0,180,0.0,Semiurban,N
+LP100121,Female,Yes,2,Graduate,Yes,17326.0,0,357.0,180,0.0,Rural,N
+LP100122,Male,No,3+,Graduate,Yes,7736.0,0,405.0,300,0.0,Rural,N
+LP100123,Female,Yes,3+,Not Graduate,No,17168.0,2216,542.0,240,0.0,Urban,N
+LP100124,Male,No,2,Not Graduate,Yes,,0,656.0,240,0.0,Urban,N
+LP100125,Male,Yes,0,Graduate,No,22234.0,2409,378.0,120,0.0,Semiurban,N
+LP100126,Male,No,1,Graduate,No,5338.0,0,123.0,240,1.0,Urban,Y
+LP100127,Female,No,1,Graduate,No,5246.0,0,675.0,180,1.0,Urban,Y
+LP100128,Female,Yes,3+,Not Graduate,No,14635.0,0,649.0,180,1.0,Urban,Y
+LP100129,Male,No,2,Not Graduate,No,14504.0,0,301.0,120,1.0,Urban,Y
+LP100130,Female,No,2,Not Graduate,No,8885.0,13678,395.0,300,0.0,Semiurban,N
+LP100131,Male,Yes,1,Graduate,Yes,15320.0,2216,62.0,360,1.0,Rural,Y
+LP100132,Male,No,2,Graduate,No,24556.0,1015,312.0,240,1.0,Urban,Y
+LP100133,Male,Yes,2,Graduate,Yes,15449.0,0,219.0,180,,Rural,N
+LP100134,Male,Yes,3+,Not Graduate,No,2455.0,3526,127.0,240,0.0,Rural,N
+LP100135,Male,No,1,Graduate,No,22306.0,0,59.0,240,0.0,Urban,N
+LP100136,Male,Yes,3+,Graduate,,10313.0,0,596.0,240,0.0,Semiurban,N
+LP100137,Male,No,0,Not Graduate,Yes,11001.0,0,442.0,240,0.0,Rural,N
+LP100138,Female,Yes,2,Graduate,No,5343.0,11854,59.0,180,1.0,Rural,Y
+LP100139,Male,No,2,Not Graduate,Yes,21348.0,0,72.0,300,0.0,Rural,N
+LP100140,Female,No,3+,Graduate,Yes,19842.0,0,276.0,300,0.0,Urban,N
+LP100141,Female,Yes,1,Graduate,No,3157.0,0,540.0,120,1.0,Urban,Y
+LP100142,Female,No,3+,Graduate,Yes,2522.0,0,642.0,300,0.0,Urban,N
+LP100143,Male,No,1,Graduate,Yes,20506.0,0,565.0,180,1.0,Rural,Y
+LP100144,Male,Yes,2,Not Graduate,Yes,5791.0,0,632.0,240,1.0,Rural,N
+LP100145,Male,No,3+,Graduate,No,2178.0,0,274.0,120,1.0,Urban,Y
+LP100146,Male,No,1,Not Graduate,Yes,5868.0,0,293.0,300,1.0,Rural,Y
+LP100147,Male,Yes,0,Graduate,No,22018.0,0,468.0,180,1.0,Urban,Y
+LP100148,Male,Yes,0,Not Graduate,No,17813.0,0,237.0,300,0.0,Rural,N
+LP100149,Female,No,0,Graduate,Yes,13899.0,0,200.0,300,1.0,Urban,Y
+LP100150,Female,No,0,Graduate,Yes,20178.0,0,161.0,300,1.0,Urban,Y
+LP100151,Female,Yes,2,Graduate,No,8808.0,0,499.0,120,1.0,Semiurban,Y
+LP100152,Male,No,2,Graduate,No,10610.0,0,671.0,240,1.0,Urban,Y
+LP100153,Male,No,3+,Not Graduate,No,13984.0,0,520.0,240,1.0,Urban,Y
+LP100154,Female,Yes,0,Not Graduate,No,13257.0,0,324.0,300,1.0,Urban,Y
+LP100155,Female,Yes,0,Graduate,No,19133.0,0,140.0,120,0.0,Rural,N
+LP100156,Female,No,2,Graduate,Yes,22031.0,0,557.0,120,1.0,Urban,Y
+LP100157,Female,No,0,Graduate,No,10506.0,11890,65.0,240,1.0,Semiurban,Y
+LP100158,Male,Yes,0,Graduate,No,4324.0,6028,279.0,180,1.0,Urban,Y
+LP100159,Male,Yes,1,Graduate,Yes,14028.0,0,131.0,240,0.0,Urban,N
+LP100160,Female,No,2,Graduate,Yes,18333.0,0,280.0,360,0.0,Semiurban,N
+LP100161,Male,No,2,Not Graduate,,3738.0,0,493.0,120,,Rural,N
+LP100162,Male,No,0,Not Graduate,No,,0,535.0,300,1.0,Semiurban,N
+LP100163,Female,No,1,Not Graduate,No,9267.0,0,357.0,180,1.0,Rural,Y
+LP100164,Male,Yes,0,Not Graduate,,14956.0,3703,107.0,300,0.0,Rural,N
+LP100165,Male,Yes,1,Not Graduate,No,22718.0,0,526.0,360,0.0,Rural,N
+LP100166,Female,Yes,1,Not Graduate,Yes,23458.0,0,514.0,120,1.0,Rural,Y
+LP100167,Male,Yes,1,Graduate,No,12925.0,0,547.0,240,0.0,Semiurban,N
+LP100168,Male,No,1,Graduate,Yes,2740.0,0,467.0,360,1.0,Rural,Y
+LP100169,Female,No,3+,Graduate,No,18913.0,0,,300,1.0,Urban,Y
+LP100170,Female,No,3+,Not Graduate,Yes,2690.0,0,252.0,240,0.0,Rural,N
+LP100171,Female,No,2,Graduate,Yes,12494.0,0,526.0,240,1.0,Urban,Y
+LP100172,Male,No,2,Not Graduate,Yes,7562.0,1701,468.0,240,0.0,Urban,N
+LP100173,Male,Yes,0,Graduate,Yes,14044.0,2461,220.0,300,0.0,Rural,N
+LP100174,Female,Yes,3+,Graduate,No,9935.0,0,534.0,240,0.0,Urban,N
+LP100175,Male,No,3+,Not Graduate,No,7142.0,0,479.0,120,1.0,Semiurban,N
+LP100176,Male,No,3+,Graduate,No,18521.0,0,208.0,360,0.0,Urban,N
+LP100177,Male,No,1,Graduate,Yes,15476.0,0,399.0,120,1.0,Semiurban,Y
+LP100178,Female,No,2,Not Graduate,Yes,,0,604.0,120,0.0,Semiurban,N
+LP100179,Male,No,2,Not Graduate,Yes,19982.0,0,560.0,300,0.0,Rural,N
+LP100180,Male,Yes,3+,Not Graduate,No,3466.0,0,244.0,300,0.0,Urban,N
+LP100181,Male,No,1,Not Graduate,No,23734.0,0,247.0,180,1.0,Rural,Y
+LP100182,Female,No,1,Graduate,No,13843.0,0,540.0,120,1.0,Rural,Y
+LP100183,Female,Yes,0,Not Graduate,No,3864.0,0,,240,0.0,Urban,N
+LP100184,Male,Yes,3+,Not Graduate,Yes,12547.0,8446,166.0,360,0.0,Semiurban,N
+LP100185,Male,Yes,1,Not Graduate,Yes,7472.0,0,688.0,120,,Urban,N
+LP100186,Female,No,0,Graduate,Yes,16155.0,0,154.0,300,0.0,Rural,N
+LP100187,Male,Yes,0,Not Graduate,No,20778.0,0,273.0,180,1.0,Urban,Y
+LP100188,Female,Yes,0,Graduate,Yes,6918.0,0,435.0,180,1.0,Rural,Y
+LP100189,Male,No,2,Not Graduate,Yes,11144.0,0,318.0,120,0.0,Semiurban,N
+LP100190,Male,Yes,2,Not Graduate,No,17828.0,7994,265.0,180,1.0,Urban,Y
+LP100191,Female,Yes,3+,Not Graduate,Yes,9941.0,0,310.0,300,0.0,Rural,N
+LP100192,Female,No,3+,Graduate,Yes,,13206,222.0,240,1.0,Rural,Y
+LP100193,Male,No,0,Not Graduate,Yes,16253.0,0,185.0,240,0.0,Urban,N
+LP100194,Male,No,3+,Not Graduate,,4505.0,0,430.0,180,1.0,Rural,N
+LP100195,Male,No,2,Not Graduate,Yes,15536.0,12307,684.0,240,1.0,Rural,Y
+LP100196,Female,No,1,Graduate,Yes,18667.0,0,326.0,240,1.0,Semiurban,Y
+LP100197,Female,Yes,2,Not Graduate,No,4795.0,10863,122.0,240,0.0,Urban,N
+LP100198,Female,Yes,1,Graduate,Yes,6644.0,10776,527.0,300,1.0,Rural,Y
+LP100199,Female,Yes,1,Graduate,No,15958.0,11384,,360,1.0,Rural,Y
+LP100200,Female,Yes,0,Not Graduate,No,18138.0,14198,483.0,120,0.0,Rural,N
+LP100009,Male,No,2,Graduate,No,14255.0,0,597.0,240,0.0,Rural,N
+LP100026,Male,Yes,3+,Not Graduate,Yes,4429.0,0,348.0,240,1.0,Semiurban,Y
