@@ -1,0 +1,230 @@
+/* ==========================================================
+   DATAPILOT AI - GLOBAL STYLESHEET
+========================================================== */
+
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global */
+html, body, [class*="css"] {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Main App */
+.stApp {
+    background-color: #0E1117;
+}
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+section[data-testid="stSidebar"] {
+    background-color: #161B22;
+    border-right: 1px solid #30363D;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* ==========================================================
+   TITLES
+========================================================== */
+
+h1 {
+    color: #58A6FF;
+    font-weight: 700;
+}
+
+h2 {
+    color: #79C0FF;
+    font-weight: 600;
+}
+
+h3 {
+    color: #C9D1D9;
+}
+
+/* ==========================================================
+   METRIC CARDS
+========================================================== */
+
+div[data-testid="metric-container"] {
+
+    background-color: #161B22;
+
+    border: 1px solid #30363D;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.30);
+
+    transition: all .25s ease;
+}
+
+div[data-testid="metric-container"]:hover {
+
+    transform: translateY(-4px);
+
+    border: 1px solid #58A6FF;
+
+}
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
+
+.stButton>button {
+
+    background-color: #238636;
+
+    color: white;
+
+    border-radius: 10px;
+
+    border: none;
+
+    padding: 12px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+
+    background-color: #2EA043;
+
+    transform: scale(1.02);
+
+}
+
+/* ==========================================================
+   DOWNLOAD BUTTON
+========================================================== */
+
+.stDownloadButton>button {
+
+    background-color: #1F6FEB;
+
+    color: white;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-weight: 600;
+}
+
+.stDownloadButton>button:hover {
+
+    background-color: #388BFD;
+
+}
+
+/* ==========================================================
+   DATAFRAME
+========================================================== */
+
+div[data-testid="stDataFrame"] {
+
+    border-radius: 15px;
+
+    border: 1px solid #30363D;
+
+    overflow: hidden;
+
+}
+
+/* ==========================================================
+   SELECTBOX
+========================================================== */
+
+.stSelectbox {
+
+    border-radius: 10px;
+
+}
+
+/* ==========================================================
+   TEXT INPUT
+========================================================== */
+
+.stTextInput input {
+
+    border-radius: 10px;
+
+}
+
+/* ==========================================================
+   SUCCESS
+========================================================== */
+
+.stSuccess {
+
+    border-radius: 10px;
+
+}
+
+/* ==========================================================
+   INFO
+========================================================== */
+
+.stInfo {
+
+    border-radius: 10px;
+
+}
+
+/* ==========================================================
+   WARNING
+========================================================== */
+
+.stWarning {
+
+    border-radius: 10px;
+
+}
+
+/* ==========================================================
+   ERROR
+========================================================== */
+
+.stError {
+
+    border-radius: 10px;
+
+}
+
+/* ==========================================================
+   DIVIDER
+========================================================== */
+
+hr {
+
+    border: 1px solid #30363D;
+
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer {
+
+    visibility: hidden;
+
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+header {
+
+    visibility: hidden;
+
+}
